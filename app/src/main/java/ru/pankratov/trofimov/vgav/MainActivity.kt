@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        Toast.makeText(this, "САШКА БЛЯ РАБОТАЕТ!! А ЁПТА", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, HelloSashka.getAlexander(), Toast.LENGTH_LONG).show()
         super.onBackPressed()
     }
 
