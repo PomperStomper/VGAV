@@ -26,10 +26,12 @@ class MainActivity : AppCompatActivity() {
             AUDIO_URL,
             path_song
         )
+
         intent.putExtra(
             IMG_URL,
             path_img
         )
+
         startActivity(intent)
     }
 

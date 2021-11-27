@@ -35,6 +35,7 @@ class AudioPlayerActivity : Activity() {
         val coverImage = intent.getStringExtra(MainActivity.IMG_URL)
 
 
+
         // create a media player
         mediaPlayer = MediaPlayer()
 

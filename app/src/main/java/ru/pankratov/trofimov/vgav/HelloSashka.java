@@ -3,6 +3,6 @@ package ru.pankratov.trofimov.vgav;
 public class HelloSashka {
 
     public static String getAlexander() {
-        return "САШКА БЛЯ РАБОТАЕТ!! А ЁПТА";
+        return "САШКА БЛЯ НЕ РАБОТАЕТ!! А ЁПТА";
     }
 }
