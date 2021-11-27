@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">VGAV</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_media_player">URL Media Player</string>
+    <string name="loading">Loading...</string>
+    <string name="file_not_found">File not found</string>
+    <string name="open_player">open player</string>
+    <string name="bw">Bw</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="fw">Fw</string>
+    <string name="_00_00_00">00:00:00</string>
 </resources>
