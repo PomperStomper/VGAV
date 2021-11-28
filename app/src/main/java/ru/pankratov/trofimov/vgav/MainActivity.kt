@@ -13,6 +13,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        // убираем ActionBar
+        supportActionBar?.hide()
+
         setContentView(R.layout.activity_main)
 
         mTextResult = findViewById(R.id.textView_result)
