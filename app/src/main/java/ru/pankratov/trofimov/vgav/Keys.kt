@@ -5,19 +5,20 @@ import androidx.constraintlayout.widget.ConstraintLayout
 
 class Keys(layout: ConstraintLayout) {
 
-    var key: ArrayList<Button> = ArrayList()
     var layout: ConstraintLayout = layout
+    lateinit var key: MutableMap<String, Button>
+
 
     fun main() {
-        key.add(layout.findViewById(R.id.button555))
-        key.add(layout.findViewById(R.id.button2555))
-        key.add(layout.findViewById(R.id.button4555))
-        key.add(layout.findViewById(R.id.button5555))
+        key.put("00", layout.findViewById(R.id.button555))
+        key.put("0", layout.findViewById(R.id.button2555))
+        key.put(".", layout.findViewById(R.id.button4555))
+        key.put("=", layout.findViewById(R.id.button5555))
 
-        key[0].setText("ИМЕ")
-        key[1].setText("НА")
-        key[2].setText("ГОВ")
-        key[3].setText("НО")
+        key.get("00")?.setText("ИМЕ")
+        key.get("0")?.setText("НА")
+        key.get(".")?.setText("ГОВ")
+        key.get("=")?.setText("НО")
 
 
     }
