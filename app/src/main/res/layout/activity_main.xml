@@ -70,7 +70,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btn_discharge"
                 style="@style/Button_gull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
                 android:text="C" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btn_percent"
                 style="@style/Button_gull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -86,7 +86,7 @@
                 android:text="%" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btn_erase"
                 style="@style/Button_gull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -94,7 +94,7 @@
                 android:text="@string/back" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/btn_divide"
                 style="@style/Button_gull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -108,7 +108,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button2222"
+                android:id="@+id/btn_seven"
                 style="@style/Button_gull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -116,7 +116,7 @@
                 android:text="7" />
 
             <Button
-                android:id="@+id/button222"
+                android:id="@+id/btn_eight"
                 style="@style/Button_gull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -124,7 +124,7 @@
                 android:text="8" />
 
             <Button
-                android:id="@+id/button422"
+                android:id="@+id/btn_nine"
                 style="@style/Button_gull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -132,7 +132,7 @@
                 android:text="9" />
 
             <Button
-                android:id="@+id/button522"
+                android:id="@+id/btn_multiply"
                 style="@style/Button_gull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -147,7 +147,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button333"
+                android:id="@+id/btn_four"
                 style="@style/Button_gull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -155,7 +155,7 @@
                 android:text="4" />
 
             <Button
-                android:id="@+id/button233"
+                android:id="@+id/btn_five"
                 style="@style/Button_gull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -163,7 +163,7 @@
                 android:text="5" />
 
             <Button
-                android:id="@+id/button433"
+                android:id="@+id/btn_six"
                 style="@style/Button_gull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -171,7 +171,7 @@
                 android:text="6" />
 
             <Button
-                android:id="@+id/button533"
+                android:id="@+id/btn_minus"
                 style="@style/Button_gull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -186,7 +186,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button44"
+                android:id="@+id/btn_one"
                 style="@style/Button_gull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -194,7 +194,7 @@
                 android:text="1" />
 
             <Button
-                android:id="@+id/button244"
+                android:id="@+id/btn_two"
                 style="@style/Button_gull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -202,7 +202,7 @@
                 android:text="2" />
 
             <Button
-                android:id="@+id/button444"
+                android:id="@+id/btn_three"
                 style="@style/Button_gull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -210,7 +210,7 @@
                 android:text="3" />
 
             <Button
-                android:id="@+id/button544"
+                android:id="@+id/btn_plus"
                 style="@style/Button_gull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -225,7 +225,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button555"
+                android:id="@+id/btn_zero_zero"
                 style="@style/Button_gull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -233,7 +233,7 @@
                 android:text="00" />
 
             <Button
-                android:id="@+id/button2555"
+                android:id="@+id/btn_zero"
                 style="@style/Button_gull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -241,7 +241,7 @@
                 android:text="0" />
 
             <Button
-                android:id="@+id/button4555"
+                android:id="@+id/btn_point"
                 style="@style/Button_gull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -249,7 +249,7 @@
                 android:text="." />
 
             <Button
-                android:id="@+id/button5555"
+                android:id="@+id/btn_equals"
                 style="@style/Button_gull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
